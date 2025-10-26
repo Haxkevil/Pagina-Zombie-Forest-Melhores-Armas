@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Audiowide';
+  src: url('Audiowide.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ShareTechMono';
+  src: url('ShareTechMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ArchitectsDaughter';
+  src: url('ArchitectsDaughter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
