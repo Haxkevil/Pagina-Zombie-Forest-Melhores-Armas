@@ -1,0 +1,116 @@
+body {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.95;
+  
+  color: #fff;
+  font-family: 'ShareTechMono', sans-serif;
+}
+
+
+h1 {
+  background: linear-gradient(to right, #00ff99, #ff4c4c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'ArchitectsDaughter', sans-serif;
+  color: #00ff99;
+  
+}
+
+
+h2 {
+  font-family: 'Audiowide', sans-serif;
+  color: #ff4c4c;
+  text-transform: uppercase;
+  
+}
+
+section:hover h2 {
+  color: #00ff99;
+  
+}
+
+section {
+  
+  background-image: linear-gradient(0deg, #000000, #300D0D);
+  border: 2px solid #ff4c4c;
+  
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  height: 250px;
+  clear: both;
+  display: block;
+  box-shadow: 0 0 15px rgba(255, 76, 76, 0.3);
+}
+
+
+
+section:hover {
+  background-image: linear-gradient(0deg, #000000, #15300D);
+  border: 2px solid #00ff99;
+  
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 153, 0.5);
+  
+  
+}
+
+section img {
+  background-image: url('Imagens/grade.jpg');
+  background-size: 100%;
+  margin-right: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  border: 2px solid #000000;
+  float: left;
+}
+
+img.imagemTitulo {
+  display: block;
+  width: 95%;
+  border: 3px solid #00ff99;
+  border-radius: 10px;
+  
+  margin: 0 auto;
+}
+
+p {
+  border-bottom: 1px solid #A9A9A9;
+}
+
+div button {
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #00ff99, #ff4c4c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+div button img {
+  width: 100%;
+  transform: rotate(0deg)
+}
+
+div button:hover {
+  width: 85px;
+  height: 85px;
+  
+}
+
+div p {
+  text-align: center;
+}
+
+div.arma_reload:hover {
+  transform: rotate(930eg)
+}
